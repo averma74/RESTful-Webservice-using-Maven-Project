@@ -10,9 +10,13 @@ It contains two get routes which are:
 1. To access all the messages we use the url: http://localhost:8080/messenger/webapi/messages
 2. To access messages based on the id we use the url: http://localhost:8080/messenger/webapi/messages/{id}
 
-The data returned from the web service routes are in JSON form. The database used is a hardcoded JSON file.
+The data returned from the web service routes are in JSON form.
 
 To run the web service in a docker container perform the below steps:
-1.
-2.
-3.
+
+1. make a docker image using Dockerfile then execute docker build -f Dockerfile
+2. check docker images using -  docker images
+3. tag the image repository using command--   docker tag <imageid> username/repositoryname
+4. push the docker image using command docker push
+5. create docker-compose.yml file.
+6. Start the docker image using command--   docker-compose up
