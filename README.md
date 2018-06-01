@@ -1,4 +1,4 @@
-# my RESTful web service In Java that runs in a docker container
+# RESTful web service In Java that runs in a docker container
 
 I've created a RESTful web service In java using maven project. My data model consists of four elements which are described below:
 1. Author: who created the message
